@@ -160,6 +160,7 @@ void World::location4()
 	}
 	else if (strcmp(hero.choise1, "2") == 0)
 	{
+		hero.intelegence = 40
 		if (hero.intelegence == 40)
 {
 	std::cout << "После вашего отказа Владыки приходят в ярость" << std::endl;
