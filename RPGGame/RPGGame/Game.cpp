@@ -14,6 +14,6 @@ void Game::menu()
 	}
 	else if (strcmp(menuChoice, "w") == 0)
 	{
-		std::cout << "Âû âûøëè èç èãðû";
+		std::cout << "Ð’Ñ‹ Ð²Ñ‹ÑˆÐ»Ð¸ Ð¸Ð· Ð¸Ð³Ñ€Ñ‹";
 	}
 }
