@@ -7,9 +7,8 @@ void World::location1()
 	std::cout << "Добро пожаловать в игру 'Владыки хаоса'\nв процессе прохождения сохранений нет вам нужно проходить игру за один игровой сеанс" << std::endl;
 	std::cout << "Чтобы начать нажмите - 1\nили\n2 - чтобы выйти в меню" << std::endl;
 
-	char choice[2] = "";
-	std::cin >> choice;
-	if (strcmp(choice, "1") == 0)
+	std::cin >> hero.choise;
+	if (strcmp(hero.choice, "1") == 0)
 	{
 		std::cout << "Вы родились в семье бедного фермера, чему бы вы хотели обучится ?" << std::endl;
 		std::cout << "1 - Говорить\nили\n2 - ходить" << std::endl;
@@ -47,7 +46,7 @@ void World::location1()
 				}
 
 			}
-	if (strcmp(choice, "2") == 0)
+	if (strcmp(hero.choise, "2") == 0)
 	{
 		game.menu();
 	}
